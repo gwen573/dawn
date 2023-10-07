@@ -6,7 +6,7 @@ const CONFIG = new Config({
   },
   overrideStorage: true, // override localStorage with fixed userconfig values
   temperature: {
-    location: 'Matão, São Paulo',
+    location: 'Dubai, United Arab Emirates',
     scale: 'C'
   },
   clock: {
@@ -30,24 +30,26 @@ const CONFIG = new Config({
   openLastVisitedTab: false,
   tabs: [
     {
-      name: 'boards',
+      name: 'stuff',
       background_url: 'src/img/banners/bg-1.gif',
       categories: [{
         name: 'fun',
         links: [
           {
-            url: 'https://4chan.org/wsg/',
-            name: '/wsg/'
+            url: 'https://discord.com/channels/@me/1101511285935456358',
+            name: 'discord'
+            icon: 'brand-discord',
+            icon_color: '#64876d'
           },
           {
-            name: '/out/',
-            url: 'https://4chan.org/out',
+            name: 'wahey',
+            url: 'https://twitter.com/Steven549310884',
             icon: 'leaf',
             icon_color: '#64876d'
           },
           {
-            name: '/lit/',
-            url: 'https://4chan.org/lit/',
+            name: 'steven fanpage',
+            url: 'https://www.youtube.com/@StevenDawsonArchive',
             icon: 'book'
           },
           {
@@ -64,14 +66,14 @@ const CONFIG = new Config({
         ]
       },
       {
-        name: 'Comfy',
+        name: 'more',
         links: [
           {
-            name: '/lounge/',
+            name: 'sushi',
             url: 'https://sushigirl.us/lounge/catalog.html'
           },
           {
-            name: '/comfy/',
+            name: 'wahey',
             url: 'https://anon.cafe/comfy/catalog.html'
           }
         ]
