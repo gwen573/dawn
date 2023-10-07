@@ -6,7 +6,7 @@ const CONFIG = new Config({
   },
   overrideStorage: true, // override localStorage with fixed userconfig values
   temperature: {
-    location: 'Matão, São Paulo',
+    location: 'Dubai, United Arab Emirates',
     scale: 'C'
   },
   clock: {
@@ -26,7 +26,7 @@ const CONFIG = new Config({
     "t": 'todo-list',
     "s": 'search-bar'
   },
-  disabled: [],
+  disabled: [crypto-rate],
   openLastVisitedTab: false,
   tabs: [
     {
